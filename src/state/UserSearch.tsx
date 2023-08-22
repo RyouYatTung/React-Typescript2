@@ -1,5 +1,5 @@
 const UserSearch: React.FC = () => {
-  // const users: string[] = [];
+  const users: string[] = [];
   return <div>userSearch</div>;
 };
 
