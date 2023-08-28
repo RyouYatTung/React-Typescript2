@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState,createContext } from "react";
+// import UserSearch from "./UserSearch";
 
 const GusetList: React.FC = () => {
   const [name, setName] = useState<string>("");
@@ -9,6 +10,10 @@ const GusetList: React.FC = () => {
     setGuests([...guests, name]);
     console.log(guests);
   };
+
+  //useContext
+  // const UserSearch =()=> <UserSearch/>
+  // export const UserContext = createContext()
 
   return (
     <>
